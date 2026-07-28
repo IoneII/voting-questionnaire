@@ -1,9 +1,20 @@
 # 🗳️ Voting Questionnaire
 
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-43B02A?logo=selenium&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Alpha-orange)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![License](https://img.shields.io/badge/License-Not%20Specified-lightgrey)
+
+</p>
+
 Инструмент автоматизации взаимодействия с веб-анкетой оценки качества медицинской помощи с использованием **Python** и **Selenium WebDriver**.
 
 > ⚠️ **Статус проекта:** Alpha. Проект создан для изучения автоматизации браузера и работы с Selenium.
 
+---
 
 ## ✨ Возможности
 
@@ -14,9 +25,11 @@
 - поддержка Firefox WebDriver;
 - модульная структура проекта.
 
+---
 
 ## 🏗 Архитектура
 
+```text
 main.py
    │
    ├── captcha.py      → работа с CAPTCHA
@@ -24,10 +37,13 @@ main.py
    ├── voting.py       → логика заполнения анкеты
    ├── utils.py        → вспомогательные функции
    └── config.py       → конфигурация
+```
 
+---
 
 ## 📁 Структура проекта
 
+```text
 .
 ├── data/
 ├── modules/
@@ -39,7 +55,9 @@ main.py
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
 
+---
 
 ## 🚀 Быстрый старт
 
@@ -59,6 +77,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
+---
 
 ## ⚙️ Настройка
 
@@ -71,6 +90,8 @@ INSTITUTION_NAME = "Название медицинской организаци
 
 При необходимости измените координаты взаимодействия с CAPTCHA под своё разрешение экрана.
 
+---
+
 ## 🛠 Используемые технологии
 
 | Компонент | Назначение |
@@ -81,6 +102,7 @@ INSTITUTION_NAME = "Название медицинской организаци
 | PyAutoGUI | взаимодействие с экраном |
 | Pyperclip | работа с буфером обмена |
 
+---
 
 ## ⚠️ Известные ограничения
 
@@ -90,6 +112,7 @@ INSTITUTION_NAME = "Название медицинской организаци
 - отсутствует Docker и CI/CD;
 - проект находится в активной разработке.
 
+---
 
 ## 🗺 Roadmap
 
@@ -102,11 +125,13 @@ INSTITUTION_NAME = "Название медицинской организаци
 - [ ] GitHub Actions
 - [ ] автоматические тесты
 
+---
 
 ## 🤝 Вклад
 
 Pull Request и предложения по улучшению приветствуются.
 
+---
 
 ## 📄 Лицензия
 
